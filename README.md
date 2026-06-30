@@ -1,4 +1,4 @@
-# GEMMINI-API
+# GEMINI-API
 
 Le but de ce script est de forcer un modèle de langage (qui génère d'ordinaire du texte libre et imprévisible) à se comporter comme une API logicielle stricte qui renvoie toujours la même structure de données.
 
