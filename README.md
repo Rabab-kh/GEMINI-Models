@@ -6,14 +6,11 @@ Le but de ce script est de forcer un modèle de langage (qui génère d'ordinair
 
 Ce code permet d'automatise l'extraction des données du ticket de caisse à partir de text brut brut et mal formatés. Il utilise le modèle de langage **Gemini 2.5 Flash** via le  SDK `google-genai` pour transformer du texte non structuré en un objet de données Python standardisé et typé.
 
----
 
 ##  Comment ça marche ? (Explication Générale)
 
 Au lieu de laisser l'IA répondre avec des phrases libres, nous lui passons un schéma strict défini en **Pydantic**. L'API de Google force  le modèle à suivre cette structure pendant la génération des mots. Le modèle n'a pas le droit de renvoyer autre chose qu'un format JSON valide.
 
-
----
 
 ## Architecture du Code
 
